@@ -1,0 +1,9 @@
+.book-input-wrapper {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}

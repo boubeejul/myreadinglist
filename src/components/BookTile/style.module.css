@@ -1,0 +1,25 @@
+.options {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    gap: 14px;
+    visibility: hidden;
+}
+.hasRead, .toRead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    padding: 10px 0px;
+    border-radius: 2px;
+    font-size: 18px;
+    text-indent: 15px;
+}
+.toRead {
+    background-color: #673AB7;
+}
+.hasRead:hover, .toRead:hover {
+    .options {
+        visibility: visible;
+    }
+}
